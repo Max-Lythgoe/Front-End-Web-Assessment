@@ -39,7 +39,9 @@ img {
 
 div > button {
 	background-color: yellow;
-	padding: 15px 32px;
+	/* padding: 15px 32px; */
+	height: 4vh;
+	width: 10vw;
 }
 
 .dark-mode {
