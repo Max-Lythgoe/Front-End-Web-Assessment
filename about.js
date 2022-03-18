@@ -2,8 +2,7 @@ console.log("hello world");
 
 const imgFunc = document.querySelector('#rubberDuck')
 
-function handleSubmit(evt) {
-	evt.preventDefault();
+function handleSubmit() {
 	
 	alert('Form Submitted Successfully!');
 }
