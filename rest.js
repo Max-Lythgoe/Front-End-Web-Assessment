@@ -21,5 +21,9 @@ const restArray = ['Burger Stop', 'McDonalds', 'Wendys', 'Burger King', 'Sills C
 
 const result = restFunc(restArray)
 
+function printResult(){
+    alert(result)
+}
 
-restBtnn.addEventListener('click', alert(result))
+
+restBtnn.addEventListener('click', printResult)
